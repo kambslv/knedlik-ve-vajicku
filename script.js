@@ -1,6 +1,3 @@
-let den = 7
-let sazba = 320
-let mesic = 21
-let plat = den * sazba * mesic
+const jmeno = "Kamila"
 
-document.body.innerHTML += plat
+document.body.innerHTML = "<h1>" + jmeno + "</h1>"
